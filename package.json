@@ -4,9 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "build": "GOOS=linux GOARCH=amd64 go build -o main main.go",
-    "local": "go build -o main main.go && node index.js"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
